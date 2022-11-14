@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando estilos</title>
+    <style type="text/css">
+        p{
+            background-color: black;
+            color: sandybrown;
+            font-size: medium;
+        }
+        p#paragrafo_1{
+            background-color: aqua;
+            color: black;
+        }
+        p.paragrafo_2{
+            background-color: bisque;
+            color: black;
+            font-size: 18px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Header 1 sem estilo</h1>
+
+    <h1 style="background-color: blue; color: white; text-align: center;">Header 1 com estilo, modo inline, estilo dentro da tag</h1>
+
+    <p>Parágrafos com estilo, modo folha de estilo interna. Neste caso, o estilo é aplicado dentro da tag header e para este caso específico, todas as tags p do documento ficarão com o estilo definido acima.</p>
+
+    <h1>Identificadores e classes</h1>
+    <p>O atributo id pode ser colocado em qualquer tag, este deve ser único no documento. Através do identificador podemos aplicar formatações naquela tag específica, sem alterar o estilo de outras tags.</p>
+
+    <p id="paragrafo_1">Em style, dentro da tag head, podemos aplicar um estilo usando o identificador deste parágrafo, usando o simbolo "#". Aqui temos a precedência de estilo. O estilo do identificador se sobrepôs ao estilo da tag.</p>
+
+    <p class="paragrafo_2">Em style, dentro da tag head, podemos aplicar um estilo usando uma classe, usando o simbolo ".". Então qual a diferença? O identificador é único, a classe pode ser usada em várias tags.</p>
+
+    <p class="paragrafo_2"><strong>Parágrafo com lorem ipsum:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit non consequatur cumque explicabo culpa tempora reprehenderit porro ullam optio, nobis fuga odit voluptas ad reiciendis alias dignissimos placeat exercitationem!</p>
+</body>
+</html>

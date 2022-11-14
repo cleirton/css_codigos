@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+p#elemento_teste{
+    background-color: lightblue;
+
+    width: 200px;
+    height: 200px;
+
+    text-align: justify;
+
+    /* atalho para aplicação de valores individuais */
+    padding: 20px 20px 20px 20px;
+    
+    /* aplica o valor para todos os lados */
+    margin: 30px;
+
+    /* aplica o valor individualmente */
+    border-top: 5px;
+    border-left: 20px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-color: red;
+    border-style: solid;
+
+}

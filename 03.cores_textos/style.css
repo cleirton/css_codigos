@@ -1,0 +1,92 @@
+h2 ,h3{
+    margin-top: 40px;
+}
+
+p{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+}
+
+p#cor_texto{
+    color: red;
+}
+
+p#cor_borda{
+    border-style: solid;
+    border-color: red;
+}
+
+p#cor_background{
+    background-color: red;
+}
+
+p#cor_borda_externa{
+    border-style: solid;
+    outline-style: dashed;
+    outline-color: red;
+}
+
+#text_center{
+    text-align: center;
+}
+
+#text_left{
+    text-align: left;
+}
+
+#text_right{
+    text-align: right;
+}
+
+#line_height_normal{
+    line-height: normal;
+}
+
+#line_height_multiplicador{
+    line-height: 1.5;
+}
+
+#line_height_comprimento{
+    line-height: 40px;
+}
+
+#letter-spacing-comp{
+    letter-spacing: normal;
+}
+
+#letter-spacing-comp-20{
+    letter-spacing: 10px;
+}
+
+#font-size-16{
+    font-size: 16px;
+}
+
+#font-size-24{
+    font-size: 24px;
+}
+
+#font-size-xx-large{
+    font-size: xx-large;
+}
+
+#font-verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#font-courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#font-italic{
+    font-style: italic;
+}
+
+#font-weight-lighter{
+    font-weight: lighter;
+}
+
+#font-weight-bold{
+    font-weight: bold;
+}
