@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Posicionamento de Elementos</h1>
+    <h2>Position</h2>
+    <ul>
+        <li>static: de acordo com o posicionamento da página.</li>
+        <li>relative: relativa a uma posição normal.</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>sticky</li>
+    </ul>
+    <h2>Relative</h2>
+    <p id="box_relative">p relative to body</p>
+    <div id="div_relative">Div relative to body
+        <p id="p_to_div_relative">p relative to div</p>
+    </div>
+
+    <h2>Fixed</h2>
+    <p>O mesmo fica fixo na página independente da rolagem da mesma, como um icone de chat por exemplo.</p>
+    <p style="font-size: 50px;"><strong>Texto de exemplo para preenchimento da página:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed rem nemo rerum ea, eos explicabo cupiditate voluptatem sapiente esse aspernatur veniam excepturi, voluptates repellat eius beatae quasi, repudiandae at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo reiciendis architecto error aliquid explicabo sapiente totam nihil quibusdam recusandae tempora, ex vel omnis. Vel consequuntur labore, doloribus quisquam nihil cupiditate.</p>
+
+    <p id="p_fixed">Objeto fixado.</p>
+
+    <h2>Absolute</h2>
+    <p>É posicionado relativamente ao elemento antecessor mais próximo</p>
+    <div class="div_relative">
+        div relativa ao body
+        <div class="div_absolute">Div absoluta a div</div>
+    </div>
+</body>
+</html>

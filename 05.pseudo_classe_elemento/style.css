@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+#exemplo{
+    padding-left: 20px;
+    border: 5px solid black;
+    background-color: lightyellow;
+}
+
+#exemplo:hover{
+    /* Quando o mouse passa por cima */
+    background-color: lightgreen;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#exemplo:active{
+    background-color: blue;
+    color: yellow;
+}
+
+#texto_chave{
+    margin-top: 50px;
+}
+
+#texto_chave:hover #escondido{
+    display: block;
+}
+
+#escondido{
+    display: none;
+    background-color: yellow;
+    font-size: larger;
+}
